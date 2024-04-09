@@ -35,12 +35,14 @@ const dashboardRouter = require('./routes/admin_Routes')
 const furniRouter = require("./routes/furni_router")
 const shopRouter = require('./routes/shop_router')
 const contactRouter = require('./routes/contact_router')
+const blogRouter = require('./routes/blog_Routes')
 
 //Router Implemnting
 app.use(dashboardRouter)
 app.use(furniRouter)
 app.use(shopRouter)
 app.use(contactRouter)
+app.use(blogRouter)
 
 
 
